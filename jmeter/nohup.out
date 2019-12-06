@@ -1,0 +1,170 @@
+Downloading https://repo1.maven.org/maven2/org/apache/maven/apache-maven/3.3.9/apache-maven-3.3.9-bin.zip
+..............................................................................................................................................................................................................................................................................................................................................................................................................................................
+Unzipping /home/afikur/.m2/wrapper/dists/apache-maven-3.3.9-bin/2609u9g41na2l7ogackmif6fj2/apache-maven-3.3.9-bin.zip to /home/afikur/.m2/wrapper/dists/apache-maven-3.3.9-bin/2609u9g41na2l7ogackmif6fj2
+Exception in thread "main" java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:169)
+	at org.apache.maven.wrapper.Installer.unzip(Installer.java:161)
+	at org.apache.maven.wrapper.Installer.createDist(Installer.java:78)
+	at org.apache.maven.wrapper.WrapperExecutor.execute(WrapperExecutor.java:121)
+	at org.apache.maven.wrapper.MavenWrapperMain.main(MavenWrapperMain.java:50)
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for com.baeldung:jmeter:[unknown-version]: Could not find artifact com.baeldung:parent-boot-1:pom:0.0.1-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 10, column 13
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project com.baeldung:jmeter:[unknown-version] (/home/afikur/code/baeldung/jmeter/jmeter/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for com.baeldung:jmeter:[unknown-version]: Could not find artifact com.baeldung:parent-boot-1:pom:0.0.1-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 10, column 13 -> [Help 2]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+[INFO] Scanning for projects...
+[INFO] gitflow-incremental-builder is disabled.
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/mojo/exec-maven-plugin/1.6.0/exec-maven-plugin-1.6.0.pom
+2/13 KB   3/13 KB   5/13 KB   6/13 KB   7/13 KB   9/13 KB   10/13 KB   11/13 KB   13/13 KB   13/13 KB              Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/mojo/exec-maven-plugin/1.6.0/exec-maven-plugin-1.6.0.pom (13 KB at 8.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/mojo/exec-maven-plugin/1.6.0/exec-maven-plugin-1.6.0.jar
+2/57 KB    3/57 KB   5/57 KB   6/57 KB   7/57 KB   9/57 KB   10/57 KB   11/57 KB   13/57 KB   14/57 KB   15/57 KB   17/57 KB   18/57 KB   19/57 KB   21/57 KB   22/57 KB   23/57 KB   25/57 KB   26/57 KB   27/57 KB   29/57 KB   30/57 KB   31/57 KB   33/57 KB   34/57 KB   35/57 KB   37/57 KB   38/57 KB   39/57 KB   41/57 KB   42/57 KB   43/57 KB   45/57 KB   46/57 KB   47/57 KB   49/57 KB   50/57 KB   51/57 KB   53/57 KB   54/57 KB   55/57 KB   57/57 KB   57/57 KB              Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/mojo/exec-maven-plugin/1.6.0/exec-maven-plugin-1.6.0.jar (57 KB at 79.1 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/1.5.22.RELEASE/spring-boot-maven-plugin-1.5.22.RELEASE.pom
+2/7 KB     3/7 KB   5/7 KB   6/7 KB   7/7 KB            Downloaded: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/1.5.22.RELEASE/spring-boot-maven-plugin-1.5.22.RELEASE.pom (7 KB at 14.0 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-tools/1.5.22.RELEASE/spring-boot-tools-1.5.22.RELEASE.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-tools/1.5.22.RELEASE/spring-boot-tools-1.5.22.RELEASE.pom (2 KB at 2.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/1.5.22.RELEASE/spring-boot-maven-plugin-1.5.22.RELEASE.jar
+2/65 KB   3/65 KB   5/65 KB   6/65 KB   7/65 KB   9/65 KB   10/65 KB   11/65 KB   13/65 KB   14/65 KB   15/65 KB   17/65 KB   18/65 KB   19/65 KB   21/65 KB   22/65 KB   23/65 KB   25/65 KB   26/65 KB   27/65 KB   29/65 KB   30/65 KB   31/65 KB   33/65 KB   34/65 KB   35/65 KB   37/65 KB   38/65 KB   39/65 KB   41/65 KB   42/65 KB   43/65 KB   45/65 KB   46/65 KB   47/65 KB   49/65 KB   50/65 KB   51/65 KB   53/65 KB   54/65 KB   55/65 KB   57/65 KB   58/65 KB   59/65 KB   61/65 KB   62/65 KB   63/65 KB   65/65 KB              Downloaded: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/1.5.22.RELEASE/spring-boot-maven-plugin-1.5.22.RELEASE.jar (65 KB at 55.3 KB/sec)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building jmeter 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:1.5.22.RELEASE:run (default-cli) > test-compile @ jmeter >>>
+[INFO] 
+[INFO] --- directory-maven-plugin:0.3.1:directory-of (directories) @ jmeter ---
+[INFO] Directory of com.baeldung:parent-modules set to: /home/afikur/code/baeldung/jmeter
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.1:install-file (install-jar-lib) @ jmeter ---
+[INFO] Installing /home/afikur/code/baeldung/jmeter/custom-pmd-0.0.1.jar to /home/afikur/.m2/repository/org/baeldung/pmd/custom-pmd/0.0.1/custom-pmd-0.0.1.jar
+[INFO] Installing /tmp/mvninstall2160435891066790905.pom to /home/afikur/.m2/repository/org/baeldung/pmd/custom-pmd/0.0.1/custom-pmd-0.0.1.pom
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jmeter ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ jmeter ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] >>> maven-pmd-plugin:3.8:check (default) > :pmd @ jmeter >>>
+[INFO] 
+[INFO] --- maven-pmd-plugin:3.8:pmd (pmd) @ jmeter ---
+[INFO] 
+[INFO] <<< maven-pmd-plugin:3.8:check (default) < :pmd @ jmeter <<<
+[INFO] 
+[INFO] --- maven-pmd-plugin:3.8:check (default) @ jmeter ---
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jmeter ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/afikur/code/baeldung/jmeter/jmeter/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ jmeter ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:1.5.22.RELEASE:run (default-cli) < test-compile @ jmeter <<<
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:1.5.22.RELEASE:run (default-cli) @ jmeter ---
+Downloading: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/1.5.22.RELEASE/spring-boot-loader-tools-1.5.22.RELEASE.pom
+2/4 KB     3/4 KB   4/4 KB            Downloaded: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/1.5.22.RELEASE/spring-boot-loader-tools-1.5.22.RELEASE.pom (4 KB at 7.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/1.5.22.RELEASE/spring-boot-loader-tools-1.5.22.RELEASE.jar
+2/149 KB   3/149 KB   5/149 KB   6/149 KB   7/149 KB   9/149 KB   10/149 KB   11/149 KB   13/149 KB   14/149 KB   15/149 KB   17/149 KB   18/149 KB   19/149 KB   21/149 KB   22/149 KB   23/149 KB   25/149 KB   26/149 KB   27/149 KB   29/149 KB   30/149 KB   31/149 KB   33/149 KB   34/149 KB   35/149 KB   37/149 KB   38/149 KB   39/149 KB   41/149 KB   42/149 KB   43/149 KB   45/149 KB   46/149 KB   47/149 KB   49/149 KB   50/149 KB   51/149 KB   53/149 KB   54/149 KB   55/149 KB   57/149 KB   58/149 KB   59/149 KB   61/149 KB   62/149 KB   63/149 KB   65/149 KB   66/149 KB   67/149 KB   69/149 KB   70/149 KB   71/149 KB   73/149 KB   74/149 KB   75/149 KB   77/149 KB   78/149 KB   79/149 KB   81/149 KB   82/149 KB   84/149 KB   85/149 KB   86/149 KB   88/149 KB   89/149 KB   90/149 KB   92/149 KB   93/149 KB   94/149 KB   96/149 KB   97/149 KB   98/149 KB   100/149 KB   101/149 KB   102/149 KB   104/149 KB   105/149 KB   106/149 KB   108/149 KB   109/149 KB   110/149 KB   112/149 KB   113/149 KB   114/149 KB   116/149 KB   117/149 KB   118/149 KB   120/149 KB   121/149 KB   122/149 KB   124/149 KB   125/149 KB   126/149 KB   128/149 KB   129/149 KB   130/149 KB   132/149 KB   133/149 KB   134/149 KB   136/149 KB   137/149 KB   138/149 KB   140/149 KB   141/149 KB   142/149 KB   144/149 KB   145/149 KB   146/149 KB   148/149 KB   149/149 KB   149/149 KB                Downloaded: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/1.5.22.RELEASE/spring-boot-loader-tools-1.5.22.RELEASE.jar (149 KB at 158.0 KB/sec)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::       (v1.5.22.RELEASE)
+
+20:25:44.607 [main] INFO  c.b.SpringJMeterJenkinsApplication - Starting SpringJMeterJenkinsApplication on dsi with PID 31161 (/home/afikur/code/baeldung/jmeter/jmeter/target/classes started by afikur in /home/afikur/code/baeldung/jmeter/jmeter)
+20:25:44.609 [main] INFO  c.b.SpringJMeterJenkinsApplication - No active profile set, falling back to default profiles: default
+20:25:44.829 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6891633b: startup date [Fri Dec 06 20:25:44 BDT 2019]; root of context hierarchy
+20:25:44.937 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+20:25:45.801 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8989 (http)
+20:25:45.815 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+20:25:45.829 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+20:25:45.829 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.43
+20:25:45.908 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:25:45.908 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1079 ms
+20:25:46.023 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+20:25:46.027 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+20:25:46.027 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+20:25:46.027 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+20:25:46.028 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+20:25:46.272 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+20:25:46.273 [main] INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+20:25:46.306 [cluster-ClusterId{value='5dea64ea17d7ec79b9b38d6d', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:63)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:115)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:113)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:57)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
+	... 3 common frames omitted
+20:25:46.734 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6891633b: startup date [Fri Dec 06 20:25:44 BDT 2019]; root of context hierarchy
+20:25:46.787 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+20:25:46.788 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+20:25:46.809 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:25:46.809 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:25:46.818 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in repositoryRestExceptionHandler
+20:25:46.860 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:25:47.256 [main] INFO  o.s.d.r.w.RepositoryRestHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6891633b: startup date [Fri Dec 06 20:25:44 BDT 2019]; root of context hierarchy
+20:25:47.265 [main] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/ || ],methods=[OPTIONS],produces=[application/hal+json || application/json]}" onto public org.springframework.http.HttpEntity<?> org.springframework.data.rest.webmvc.RepositoryController.optionsForRepositories()
+20:25:47.266 [main] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/ || ],methods=[HEAD],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.data.rest.webmvc.RepositoryController.headForRepositories()
+20:25:47.266 [main] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/ || ],methods=[GET],produces=[application/hal+json || application/json]}" onto public org.springframework.http.HttpEntity<org.springframework.data.rest.webmvc.RepositoryLinksResource> org.springframework.data.rest.webmvc.RepositoryController.listRepositories()
+20:25:47.268 [main] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/{repository}/{id}/{property}],methods=[GET],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.followPropertyReference(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,java.lang.String,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws java.lang.Exception
+20:25:47.268 [main] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/{repository}/{id}/{property}/{propertyId}],methods=[GET],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.followPropertyReference(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,java.lang.String,java.lang.String,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws java.lang.Exception
+20:25:47.269 [main] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/{repository}/{id}/{property}],methods=[DELETE],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<? extends org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.deletePropertyReference(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,java.lang.String) throws java.lang.Exception
+20:25:47.269 [main] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/{repository}/{id}/{property}],methods=[GET],produces=[application/x-spring-data-compact+json || text/uri-list]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.followPropertyReferenceCompact(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,java.lang.String,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws java.lang.Exception
+20:25:47.269 [main] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/{repository}/{id}/{property}],methods=[PATCH || PUT || POST],consumes=[application/json || application/x-spring-data-compact+json || text/uri-list],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<? extends org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.createPropertyReference(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.http.HttpMethod,org.springframework.hateoas.Resources<java.lang.Object>,java.io.Serializable,java.lang.String) throws java.lang.Exception
+20:25:47.270 [main] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/{repository}/{id}/{property}/{propertyId}],methods=[DELETE],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.deletePropertyReferenceId(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,java.lang.String,java.lang.String) throws java.lang.Exception
+20:25:47.273 [main] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/{repository}],methods=[OPTIONS],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.data.rest.webmvc.RepositoryEntityController.optionsForCollectionResource(org.springframework.data.rest.webmvc.RootResourceInformation)
+20:25:47.274 [main] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/{repository}],methods=[HEAD],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.data.rest.webmvc.RepositoryEntityController.headCollectionResource(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.support.DefaultedPageable) throws org.springframework.web.HttpRequestMethodNotSupportedException
+20:25:47.274 [main] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/{repository}],methods=[GET],produces=[application/hal+json || application/json]}" onto public org.springframework.hateoas.Resources<?> org.springframework.data.rest.webmvc.RepositoryEntityController.getCollectionResource(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.support.DefaultedPageable,org.springframework.data.domain.Sort,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws org.springframework.data.rest.webmvc.ResourceNotFoundException,org.springframework.web.HttpRequestMethodNotSupportedException
+20:25:47.274 [main] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/{repository}],methods=[GET],produces=[application/x-spring-data-compact+json || text/uri-list]}" onto public org.springframework.hateoas.Resources<?> org.springframework.data.rest.webmvc.RepositoryEntityController.getCollectionResourceCompact(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.support.DefaultedPageable,org.springframework.data.domain.Sort,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws org.springframework.data.rest.webmvc.ResourceNotFoundException,org.springframework.web.HttpRequestMethodNotSupportedException
+20:25:47.275 [main] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/{repository}],methods=[POST],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryEntityController.postCollectionResource(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.PersistentEntityResource,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler,java.lang.String) throws org.springframework.web.HttpRequestMethodNotSupportedException
+20:25:47.275 [main] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/{repository}/{id}],methods=[OPTIONS],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.data.rest.webmvc.RepositoryEntityController.optionsForItemResource(org.springframework.data.rest.webmvc.RootResourceInformation)
+20:25:47.275 [main] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/{repository}/{id}],methods=[HEAD],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.data.rest.webmvc.RepositoryEntityController.headForItemResource(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws org.springframework.web.HttpRequestMethodNotSupportedException
+20:25:47.276 [main] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/{repository}/{id}],methods=[GET],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.Resource<?>> org.springframework.data.rest.webmvc.RepositoryEntityController.getItemResource(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler,org.springframework.http.HttpHeaders) throws org.springframework.web.HttpRequestMethodNotSupportedException
+20:25:47.276 [main] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/{repository}/{id}],methods=[PUT],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<? extends org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryEntityController.putItemResource(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.PersistentEntityResource,java.io.Serializable,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler,org.springframework.data.rest.webmvc.support.ETag,java.lang.String) throws org.springframework.web.HttpRequestMethodNotSupportedException
+20:25:47.276 [main] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/{repository}/{id}],methods=[PATCH],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryEntityController.patchItemResource(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.PersistentEntityResource,java.io.Serializable,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler,org.springframework.data.rest.webmvc.support.ETag,java.lang.String) throws org.springframework.web.HttpRequestMethodNotSupportedException,org.springframework.data.rest.webmvc.ResourceNotFoundException
+20:25:47.276 [main] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/{repository}/{id}],methods=[DELETE],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.data.rest.webmvc.RepositoryEntityController.deleteItemResource(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,org.springframework.data.rest.webmvc.support.ETag) throws org.springframework.data.rest.webmvc.ResourceNotFoundException,org.springframework.web.HttpRequestMethodNotSupportedException
+20:25:47.278 [main] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/{repository}/search],methods=[GET],produces=[application/hal+json || application/json]}" onto public org.springframework.data.rest.webmvc.RepositorySearchesResource org.springframework.data.rest.webmvc.RepositorySearchController.listSearches(org.springframework.data.rest.webmvc.RootResourceInformation)
+20:25:47.278 [main] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/{repository}/search/{search}],methods=[HEAD],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> org.springframework.data.rest.webmvc.RepositorySearchController.headForSearch(org.springframework.data.rest.webmvc.RootResourceInformation,java.lang.String)
+20:25:47.278 [main] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/{repository}/search],methods=[HEAD],produces=[application/hal+json || application/json]}" onto public org.springframework.http.HttpEntity<?> org.springframework.data.rest.webmvc.RepositorySearchController.headForSearches(org.springframework.data.rest.webmvc.RootResourceInformation)
+20:25:47.279 [main] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/{repository}/search/{search}],methods=[GET],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.data.rest.webmvc.RepositorySearchController.executeSearch(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.util.MultiValueMap<java.lang.String, java.lang.Object>,java.lang.String,org.springframework.data.rest.webmvc.support.DefaultedPageable,org.springframework.data.domain.Sort,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler,org.springframework.http.HttpHeaders)
+20:25:47.279 [main] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/{repository}/search/{search}],methods=[OPTIONS],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> org.springframework.data.rest.webmvc.RepositorySearchController.optionsForSearch(org.springframework.data.rest.webmvc.RootResourceInformation,java.lang.String)
+20:25:47.279 [main] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/{repository}/search],methods=[OPTIONS],produces=[application/hal+json || application/json]}" onto public org.springframework.http.HttpEntity<?> org.springframework.data.rest.webmvc.RepositorySearchController.optionsForSearches(org.springframework.data.rest.webmvc.RootResourceInformation)
+20:25:47.280 [main] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/{repository}/search/{search}],methods=[GET],produces=[application/x-spring-data-compact+json]}" onto public org.springframework.hateoas.ResourceSupport org.springframework.data.rest.webmvc.RepositorySearchController.executeSearchCompact(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.http.HttpHeaders,org.springframework.util.MultiValueMap<java.lang.String, java.lang.Object>,java.lang.String,java.lang.String,org.springframework.data.rest.webmvc.support.DefaultedPageable,org.springframework.data.domain.Sort,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler)
+20:25:47.282 [main] INFO  o.s.d.r.w.BasePathAwareHandlerMapping - Mapped "{[/profile/{repository}],methods=[OPTIONS],produces=[application/alps+json]}" onto org.springframework.http.HttpEntity<?> org.springframework.data.rest.webmvc.alps.AlpsController.alpsOptions()
+20:25:47.282 [main] INFO  o.s.d.r.w.BasePathAwareHandlerMapping - Mapped "{[/profile/{repository}],methods=[GET],produces=[application/alps+json || */*]}" onto org.springframework.http.HttpEntity<org.springframework.data.rest.webmvc.RootResourceInformation> org.springframework.data.rest.webmvc.alps.AlpsController.descriptor(org.springframework.data.rest.webmvc.RootResourceInformation)
+20:25:47.283 [main] INFO  o.s.d.r.w.BasePathAwareHandlerMapping - Mapped "{[/profile],methods=[OPTIONS]}" onto public org.springframework.http.HttpEntity<?> org.springframework.data.rest.webmvc.ProfileController.profileOptions()
+20:25:47.283 [main] INFO  o.s.d.r.w.BasePathAwareHandlerMapping - Mapped "{[/profile],methods=[GET]}" onto org.springframework.http.HttpEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.ProfileController.listAllFormsOfMetadata()
+20:25:47.283 [main] INFO  o.s.d.r.w.BasePathAwareHandlerMapping - Mapped "{[/profile/{repository}],methods=[GET],produces=[application/schema+json]}" onto public org.springframework.http.HttpEntity<org.springframework.data.rest.webmvc.json.JsonSchema> org.springframework.data.rest.webmvc.RepositorySchemaController.schema(org.springframework.data.rest.webmvc.RootResourceInformation)
+20:25:47.381 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+20:25:47.390 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8989"]
+20:25:47.398 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+20:25:47.412 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8989 (http)
+20:25:47.416 [main] INFO  c.b.SpringJMeterJenkinsApplication - Started SpringJMeterJenkinsApplication in 3.085 seconds (JVM running for 12.098)
