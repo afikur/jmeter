@@ -1,46 +1,54 @@
-## JMeter
 
-This module contains articles about JMeter.
-It contains the code of a simple API for some CRUD operations built using Spring Boot.
+The Courses
+==============================
 
-### Requirements
 
-- Maven
-- JDK 8
-- MongoDB
+Here's the new "Learn Spring" course: <br/>
+**[>> LEARN SPRING - THE MASTER CLASS](https://www.baeldung.com/learn-spring-course?utm_source=github&utm_medium=social&utm_content=tutorials&utm_campaign=ls#master-class)**
 
-### Running
+Here's the Master Class of "REST With Spring" (along with the new announced Boot 2 material): <br/>
+**[>> THE REST WITH SPRING - MASTER CLASS](https://www.baeldung.com/rest-with-spring-course?utm_source=github&utm_medium=social&utm_content=tutorials&utm_campaign=rws#master-class)**
 
-To build and start the server simply type
+And here's the Master Class of "Learn Spring Security": <br/>
+**[>> LEARN SPRING SECURITY - MASTER CLASS](https://www.baeldung.com/learn-spring-security-course?utm_source=github&utm_medium=social&utm_content=tutorials&utm_campaign=lss#master-class)**
 
-```bash
-$ mvn clean install
-$ mvn spring-boot:run -Dserver.port=8989
-```
 
-### Available CRUD
 
-You can see what crud operation are available using curl:
+Java and Spring Tutorials
+================
 
-```bash
-$ curl localhost:8080
-```
-You can view existing student objects with this command:
+This project is **a collection of small and focused tutorials** - each covering a single and well defined area of development in the Java ecosystem. 
+A strong focus of these is, of course, the Spring Framework - Spring, Spring Boot and Spring Security. 
+In additional to Spring, the modules here are covering a number of aspects in Java. 
 
-```bash
-$ curl localhost:8080/students
-```
-Or create a new one via a POST:
 
-```bash
-$ curl -X POST -H "Content-Type:application/json" -d '{ "firstName" : "Dassi", "lastName" : "Orleando", "phoneNumber": "+237 545454545", "email": "mymail@yahoo.fr" }' localhost:8080/students
-```
+Building the project
+====================
+To do the full build, do: `mvn clean install`
 
-Now with default configurations it will be available at: [http://localhost:8080](http://localhost:8080)
 
-Enjoy it :)
+Building a single module
+====================
+To build a specific module run the command: `mvn clean install` in the module directory
 
-### Relevant Articles:
 
-- [Intro to Performance Testing using JMeter](https://www.baeldung.com/jmeter)
-- [Configure Jenkins to Run and Show JMeter Tests](https://www.baeldung.com/jenkins-and-jmeter)
+Running a Spring Boot module
+====================
+To run a Spring Boot module run the command: `mvn spring-boot:run` in the module directory
+
+
+Working with the IDE
+====================
+This repo contains a large number of modules. 
+When you're working with an individual module, there's no need to import all of them (or build all of them) - you can simply import that particular module in either Eclipse or IntelliJ. 
+
+
+Running Tests
+=============
+The command `mvn clean install` will run the unit tests in a module.
+To run the integration tests, use the command `mvn clean install -Pintegration-lite-first`
+
+
+
+
+
